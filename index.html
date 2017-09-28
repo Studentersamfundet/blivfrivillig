@@ -26,15 +26,26 @@
     <!-- Custom styles for this template -->
     <link href="css/new-age.css" rel="stylesheet">
 
-    <!-- Temporary navbar container fix -->
+    <!-- Flaticon stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
+
+    <!-- Temporary navbar container fix and temporary (really) ugly checkbox fix for the signup form -->
     <style>
         .navbar-toggler {
             z-index: 1;
         }
 
+        .stop-bitching {
+            margin-right: 91px;
+        }
+
         @media (max-width: 576px) {
             nav>.container {
                 width: 100%;
+            }
+
+            .stop-bitching {
+                margin-right: 0%;
             }
         }
     </style>
@@ -70,43 +81,24 @@
     <header class="masthead">
         <div class="container">
             <div class="row">
-                <div class="col-sm-7">
+                <div class="col-sm-12">
                     <div class="header-content">
                         <div class="header-content-inner">
-                            <h1>Studentersamfundet søger frivillige til årets studiestartsfest!</h1>
+                            <h1>Vil du være frivillig i Studentersamfundet!?</h1>
                             <a href="#features" class="btn btn-outline btn-xl">Jeg er interesseret!</a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="device-container">
-                        <img class="img-fluid img-thumbnail rounded" src="img/fest1.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <!--
-    <section class="download bg-primary text-center" id="download">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <h2 class="section-heading">Discover what all the buzz is about!</h2>
-                    <p>Our app is available on any mobile device! Download now to get started!</p>
-                    <div class="badges">
-                        <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-                        <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
+
+
     <section class="features" id="features">
         <div class="container">
             <div class="section-heading text-center">
                 <h2>Hvad kan jeg lave som frivillig?</h2>
-                <p class="text-muted">Lige det du har lyst til, læs mere herunder!</p>
+                <p class="text-muted">Næsten lige det du har lyst til, læs mere herunder!</p>
                 <hr>
             </div>
             <div class="row">
@@ -115,41 +107,41 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="feature-item">
-                                    <i class="icon-location-pin text-primary"></i>
-                                    <h3>Hvor og hvornår?</h3>
-                                    <p class="text-muted">Så nærmer tiden sig at årets studiestartsfest igen skal afholdes. Traditionen tro afholdes
-                                        det d. 1/9 i (Gigantium) og i den forbindelse kan vi som altid godt bruge nogle frivillige.
-                                        </p>
+                                    <i class="flaticon-people"></i>
+                                    <h3>Grupper/Udvalg</h3>
+                                    <p class="text-muted">
+                                        Studentersamfundet består af en masse forskellige grupper og udvalg, som alle arbejder med noget forskelligt inden for Studentersamfundet. Er du interesseret i at skabe fede events, eller fester kunne Studiestartsfestudvalget eller festudvalget, måske være noget for dig. Er du lidt nørdet eller teknisk anlagt kunne Lyd og Lys, AAULan eller EDB-udvalget måkse havde interesse. Politisk er der både Valgudvalget, Nationaltudvalg og Internationalt forum. Og hvis du er mere til kommunikation og PR er der også mulighed for at arbejde i Kommunikationsudvalget. 
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="feature-item">
-                                    <i class="icon-question text-primary"></i>
-                                    <h3>Hvad kan jeg lave?</h3>
-                                    <p class="text-muted">Under festen kan man som frivillig have forskellige arbejdsopgaver som fx madudlevering,
-                                        billetscanning eller vagt. Man vil under festen have en vagt på 4 timer, men til
-                                        gengæld får man som frivillig til studiestartsfesten indgangen til festen, aftensmad,
-                                        et par ølbilletter og bliver man til sidst og hjælper med oprydningen får man natmad
-                                        samt en billet til den efterfølgende hjælperfest. </p>
+                                    <i class="flaticon-beer-jars-making-a-toast"></i>
+                                    <h3>Barer</h3>
+                                    <p class="text-muted">
+                                        Du har sikkert allerede besøgt én af vores 5 fredagsbarer, eller torsdagsbar, men vidste du at du også kan være frivillig her? Alle barerne er drevet af frivillige, som lægger tid og krafter i, at du hver fredag, eller torsdag, kan komme ned og nyde en kold, med dine medstuderende. Som frivillig i en af barene, kan man havde en lang række poster. Herunder formand, kasser, PR-ansvarlig, indkøber etc. Udover det er det selvfølgelig også muligt at være bartender. De 6 barer er spredt ud over hele campus, og du vælger selv hvor du helst vil være frivillig. 
+                                    </p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="feature-item">
-                                    <i class="icon-list text-primary"></i>
-                                    <h3>Praktisk</h3>
-                                    <p class="text-muted">Der er til festen både sene og tidlige vagter og evt. ønsker om bestemte vagter, arbejdsområder
-                                        eller har man en ven/veninde man gerne vil arbejde sammen med på dagen vil vi så
-                                        vidt muligt prøve at opfylde alle ønskerne.</p>
+                                    <i class="flaticon-megaphone"></i>
+                                    <h3>Studenterpolitik</h3>
+                                    <p class="text-muted">
+                                        Et af hovedformålene i Studentersamfundet, er at styrke studiemiljøet på tværs af universitetet. Det gør vi ved at give jer, de studerende, de bedste muligheder får at få indflydelse, igennem "studenterpolitik”. Det gøres både lokalt på jeres studie blandt indvalgte studerende som vi opkvalificerer og støtter, såvel som centralt hvor vi afholder Studenterforum den første mandag i hver måned, hvor du kan høre mere om hvad der sker rundt omkring på Aalborg Universitet og hvordan du selv kan være en aktiv del af at forbedre studiemiljøet.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="feature-item">
-                                    <i class="icon-fire text-primary"></i>
-                                    <h3>Ja tak!</h3>
-                                    <p class="text-muted">Så har du lyst til at være frivillig til årets fedeste og største fest kan du tilmelde
-                                        dig her…</p>
+                                    <i class="flaticon-university-graduate-hat"></i>
+                                    <h3>Studieforeninger</h3>
+                                    <p class="text-muted">
+                                        De Lokale Studieforeninger i Studentersamfundet, arbejder med at forbedre og styrke studiemiljøet på netop deres fakultet eller studie. De arbejder både med studenterpolitiske aspekter, og afholder fede studie relevante arrangementer. Det kan være socialt fremmende arrangementer, til oplæg og foredrag afholdt af personer, der er interessante for netop dit studie. Er du i tvivl om der er en Lokal Studieforning på dit studie eller fakultet, eller har du interesse i at hører om, hvordan du kan være med til at start en op. Så meld dig som frivillig i bunden!
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -162,8 +154,15 @@
     <section class="cta">
         <div class="cta-content">
             <div class="container">
-                <h2>Vær med til at gøre en forskel.. <br> Ved årets fedeste fest!</h2>
-                <a href="#contact" class="btn btn-outline btn-xl">Bliv frivillig!</a>
+                <h2 style="text-align:center;">Lidt i tvivl?</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="">
+                            Studentersamfundet er bygget op omkring frivillige. Er du nyligt flyttet til Aalborg, er det en god måde hurtigt at gøre sig nye bekendtskaber. Om man så vil stå i baren og være frivillig, designe tutortrøjerne næste år med de andre i kommunikationsudvalget eller finde på noget helt nyt, så er man altid velkommen. Er du stadig lidt i tvivl om hvad det vil sige at være frivillig, eller er du usikker på hvad du gerne vil lave, så sign up i bunden, og check af hvad du måske kunne havde interesse i. Så kontakter vi dig, og sammen skal vi nok finde ud af hvor du kunne have det fedt med at hjælpe til. <br><br>
+                            Ps. Fik vi sagt der er massere af gratis mad, hvis man er frivillig i Studentersamfundet? 
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="overlay"></div>
@@ -171,103 +170,58 @@
 
     <section class="contact bg-primary" id="contact">
         <div class="container">
-            <h2>Bliv frivillig nu!</h2>
-            <!--<ul class="list-inline list-social">
-                <li class="list-inline-item social-twitter">
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item social-facebook">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li class="list-inline-item social-google-plus">
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-            </ul>-->
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <label for="exampleSelect1">Example select</label>
-                    <select class="form-control" id="exampleSelect1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="exampleSelect2">Example multiple select</label>
-                    <select multiple class="form-control" id="exampleSelect2">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="exampleTextarea">Example textarea</label>
-                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-                    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-                </div>
-                <fieldset class="form-group">
-                    <legend>Radio buttons</legend>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                            Option one is this and that&mdash;be sure to include why it's great
-                        </label>
+            <h2>Tilmeld dig som frivillig nu!</h2>
+
+            <form action="https://studentersamfundet.createsend.com/t/t/s/aijoj/" method="post" id="subForm">
+                <p>
+                    <label for="fieldName">Fulde navn</label><br />
+                    <input id="fieldName" name="cm-name" type="text" />
+                </p>
+                <p>
+                    <label for="fieldEmail">Email</label><br />
+                    <input id="fieldEmail" name="cm-aijoj-aijoj" type="email" required />
+                </p>
+                <p>
+                    <h4 style="margin-top: 5%;">Hvad vil du?</h4><br />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="inputDiv1" class="stop-bitching">
+                                <input id="listaijlui" name="cm-ol-aijlui" type="checkbox" /> <label for="listaijlui">Bar</label><br
+                                />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="inputDiv2">
+                                <input id="listaijluh" name="cm-ol-aijluh" type="checkbox" /> <label for="listaijluh">Grupper/Udvalg</label><br/>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-                            Option two can be something else and selecting it will deselect option one
-                        </label>
+                   <div class="row">
+                        <div class="col-md-6">
+                            <div id="inputDiv1">
+                                <input id="listaijlud" name="cm-ol-aijlud" type="checkbox" /> <label for="listaijlud">Studenterpolitik</label><br/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="inputDiv2">
+                                <input id="listaijluu" name="cm-ol-aijluu" type="checkbox" /> <label for="listaijluu">Studieforeninger</label><br/>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-check disabled">
-                        <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-                            Option three is disabled
-                        </label>
-                    </div>
-                </fieldset>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="checkbox" class="form-check-input">
-                        Check me out
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Bliv frivillig!</button>
+                </p>
+                <p>
+                    <button type="submit" class="btn btn-outline">Tilmeld</button>
+                </p>
             </form>
+            <p>Har du yderligere spørgsmål?</p> 
+            <p>Kontakt os gerne på <a href="mailto:blivfrivillig@studentersamfundet.aau.dk">blivfrivillig@studentersamfundet.aau.dk</a></p>
+
         </div>
     </section>
 
     <footer>
         <div class="container">
             <p>&copy; 2017 Studentersamfundet. All Rights Reserved.</p>
-            <!--<ul class="list-inline">
-                <li class="list-inline-item">
-                    <a href="#">Privacy</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">Terms</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">FAQ</a>
-                </li>
-            </ul>-->
         </div>
     </footer>
 
