@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+
+
 html,
 body {
     width: 100%;
@@ -452,6 +454,10 @@ section.contact #inputDiv2 {
     }
 
     section.contact #inputDiv2 {
+        float: none;
+        text-align: center;
+    }
+    section.contact div.inputDiv {
         float: none;
         text-align: center;
     }
